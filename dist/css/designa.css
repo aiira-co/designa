@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
    ** Designa UI Kits
    ** Author: Kofi Owusu-Afriyie
@@ -320,7 +319,7 @@ h6 .thin {
 }
 
 .bg-smoke {
-  background-color: whitesmoke;
+  background-color: #f7f7f7;
   color: #1c1c1c;
 }
 .bg-smoke.hover:hover {
@@ -746,7 +745,7 @@ h6 .thin {
   color: #1c1c1c;
 }
 .ad-spinner.bg-smoke {
-  background-color: whitesmoke;
+  background-color: #f7f7f7;
   color: #1c1c1c;
 }
 .ad-spinner.bg-prim {
@@ -1017,10 +1016,10 @@ h6 .thin {
 }
 .ad-btn.ad-default {
   color: #1c1c1c;
-  background-color: #c2c2c2;
+  background-color: #c4c4c4;
 }
 .ad-btn.ad-default:hover {
-  background-color: whitesmoke;
+  background-color: #f7f7f7;
 }
 .ad-btn.ad-round {
   border-radius: 30px !important;
@@ -1032,6 +1031,12 @@ h6 .thin {
   border-radius: 8px !important;
 }
 .ad-btn.ad-rounder.ad-icon {
+  border-radius: 40% !important;
+}
+.ad-btn.ad-ellipse {
+  border-radius: 12px !important;
+}
+.ad-btn.ad-ellipse.ad-icon {
   border-radius: 40% !important;
 }
 .ad-btn.ad-flat, .ad-btn-group.ad-flat .ad-btn {
@@ -1081,24 +1086,24 @@ h6 .thin {
 }
 
 .btn-grey {
-  background-color: #f0f0f0;
+  background-color: #f2f2f2;
   color: #1c1c1c;
   outline: none;
 }
 .btn-grey:hover, .btn-grey:focus {
-  background-color: #e1e1e1;
+  background-color: #e3e3e3;
   color: #1c1c1c;
   box-shadow: none;
 }
 .btn-grey:active {
   color: #1c1c1c;
-  background-color: #e6e6e6;
+  background-color: #e8e8e8;
 }
 .btn-grey:after {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .btn-grey.clear {
-  color: #f0f0f0;
+  color: #f2f2f2;
   background: transparent;
   box-shadow: none;
 }
@@ -1106,13 +1111,13 @@ h6 .thin {
   text-shadow: 0px 0px 2px white;
 }
 .btn-grey.outline {
-  color: #f0f0f0;
+  color: #f2f2f2;
   background: transparent;
-  box-shadow: 0px 0px 3px 0px rgba(240, 240, 240, 0.1) inset, 0px 0px 0px 1.5px rgba(240, 240, 240, 0.8);
+  box-shadow: 0px 0px 3px 0px rgba(242, 242, 242, 0.1) inset, 0px 0px 0px 1.5px rgba(242, 242, 242, 0.8);
 }
 .btn-grey.outline:hover {
   box-shadow: none;
-  background-color: #f0f0f0;
+  background-color: #f2f2f2;
   color: #1c1c1c;
 }
 
@@ -1954,6 +1959,9 @@ h6 .thin {
 .ad-card.ad-round {
   border-radius: 10px;
 }
+.ad-card.ad-ellipse {
+  border-radius: 24px;
+}
 .ad-card.ad-block {
   border-radius: 0;
 }
@@ -2663,7 +2671,7 @@ output {
   transform: scale(0.8);
   text-align: center;
   color: rgba(0, 0, 0, 0.2);
-  content: "";
+  content: "\f00d";
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
@@ -2691,7 +2699,7 @@ input[type=checkbox]:checked ~ .ad-toggle:after, .ad-input select[type=checkbox]
   left: 42px;
 }
 input[type=checkbox]:checked ~ .ad-toggle::before, .ad-input select[type=checkbox]:checked ~ .ad-toggle::before, .ad-input-group select[type=checkbox]:checked ~ .ad-toggle::before, .ad-input textarea[type=checkbox]:checked ~ .ad-toggle::before, .ad-input-group textarea[type=checkbox]:checked ~ .ad-toggle::before {
-  content: "";
+  content: "\f00c";
   left: 10px;
 }
 
@@ -2728,7 +2736,7 @@ input[type=checkbox]:disabled ~ .ad-toggle:after, .ad-input select[type=checkbox
 [type=checkbox]:not(:checked) + .ad-checkbox:after,
 [type=checkbox]:checked + .ad-checkbox:after {
   font-family: FontAwesome;
-  content: "";
+  content: "\f00c";
   position: absolute;
   top: 4px;
   left: 2px;
@@ -2812,7 +2820,7 @@ input[type=checkbox]:disabled ~ .ad-toggle:after, .ad-input select[type=checkbox
 [type=radio]:not(:checked) + .ad-radio:after,
 [type=radio]:checked + .ad-radio:after {
   font-family: FontAwesome;
-  content: "";
+  content: "\f111";
   padding-top: 1px;
   display: inline-block;
   margin-top: 3.3px;
@@ -2928,6 +2936,10 @@ input[type=checkbox]:disabled ~ .ad-toggle:after, .ad-input select[type=checkbox
 .ad-list.ad-round .ad-item, .ad-list.ad-round .ad-thumbnail, .ad-list.ad-round .ad-avatar {
   border-radius: 30px;
   margin: 3px;
+}
+.ad-list.ad-ellipse .ad-item, .ad-list.ad-ellipse .ad-thumbnail, .ad-list.ad-ellipse .ad-avatar {
+  border-radius: 10px;
+  margin: 3px 0;
 }
 .ad-list.ad-strip .ad-item:nth-child(even), .ad-list.ad-strip .ad-thumbnail:nth-child(even), .ad-list.ad-strip .ad-avatar:nth-child(even) {
   background-color: rgba(28, 28, 28, 0.1);
@@ -3190,6 +3202,9 @@ input[type=checkbox]:disabled ~ .ad-toggle:after, .ad-input select[type=checkbox
   -mz-box-shadow: 0px 1px 0.5px 0.5px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 1px 0.5px 0.5px rgba(0, 0, 0, 0.1);
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .ad-avatar > .ad-img > img {
   border-radius: 0;
@@ -3222,6 +3237,9 @@ input[type=checkbox]:disabled ~ .ad-toggle:after, .ad-input select[type=checkbox
 }
 .ad-avatar.ad-block > img, .ad-avatar.ad-block > .ad-img {
   border-radius: 0;
+}
+.ad-avatar.ad-ellipse > img, .ad-avatar.ad-ellipse > .ad-img {
+  border-radius: 12px;
 }
 .ad-avatar.ad-sm {
   padding-top: 4px;
@@ -3474,6 +3492,26 @@ input[type=checkbox]:disabled ~ .ad-toggle:after, .ad-input select[type=checkbox
 }
 .ad-table.ad-hover > table > tbody > tr > td.active:hover, .ad-table.ad-hover > table > tbody > tr > th.active:hover, .ad-table.ad-hover > table > tbody > tr.active:hover > td, .ad-table.ad-hover > table > tbody > tr:hover > .active, .ad-table.ad-hover > table > tbody > tr.active:hover > th {
   background-color: #e8e8e8;
+}
+
+.ad-table.table-list table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin-top: -10px;
+}
+.ad-table.table-list table td {
+  background-color: #f7f7f7;
+}
+.ad-table.table-list table td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.ad-table.table-list table td:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.ad-table.table-list table.dark td {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 767px) {
