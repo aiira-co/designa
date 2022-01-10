@@ -310,6 +310,10 @@ h6 .thin {
   background-color: #fff;
   color: #1c1c1c;
 }
+.bg-white::-webkit-scrollbar {
+  background-color: white;
+  border-radius: 4px;
+}
 .bg-white.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -321,6 +325,10 @@ h6 .thin {
 .bg-smoke {
   background-color: #f7f7f7;
   color: #1c1c1c;
+}
+.bg-smoke::-webkit-scrollbar {
+  background-color: #f7f7f7;
+  border-radius: 4px;
 }
 .bg-smoke.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -334,6 +342,10 @@ h6 .thin {
   background-color: #227586;
   color: white;
 }
+.bg-tq::-webkit-scrollbar {
+  background-color: #227586;
+  border-radius: 4px;
+}
 .bg-tq.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -345,6 +357,10 @@ h6 .thin {
 .bg-green {
   background-color: #00796b;
   color: white;
+}
+.bg-green::-webkit-scrollbar {
+  background-color: #00796b;
+  border-radius: 4px;
 }
 .bg-green.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -358,6 +374,10 @@ h6 .thin {
   background-color: #871e6a;
   color: white;
 }
+.bg-purple::-webkit-scrollbar {
+  background-color: #871e6a;
+  border-radius: 4px;
+}
 .bg-purple.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -369,6 +389,10 @@ h6 .thin {
 .bg-color {
   background-color: #ab1656;
   color: white;
+}
+.bg-color::-webkit-scrollbar {
+  background-color: #ab1656;
+  border-radius: 4px;
 }
 .bg-color.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -382,6 +406,10 @@ h6 .thin {
   background-color: #2196f3;
   color: white;
 }
+.bg-blue::-webkit-scrollbar {
+  background-color: #2196f3;
+  border-radius: 4px;
+}
 .bg-blue.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -393,6 +421,10 @@ h6 .thin {
 .bg-dark {
   background-color: #1c1c1c;
   color: white;
+}
+.bg-dark::-webkit-scrollbar {
+  background-color: #1c1c1c;
+  border-radius: 4px;
 }
 .bg-dark.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -406,6 +438,10 @@ h6 .thin {
   background-color: #121212;
   color: white;
 }
+.bg-darker::-webkit-scrollbar {
+  background-color: #121212;
+  border-radius: 4px;
+}
 .bg-darker.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -417,6 +453,10 @@ h6 .thin {
 .bg-black {
   background-color: #010101;
   color: white;
+}
+.bg-black::-webkit-scrollbar {
+  background-color: #010101;
+  border-radius: 4px;
 }
 .bg-black.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -430,6 +470,10 @@ h6 .thin {
   background-color: #ff0066;
   color: white;
 }
+.bg-pink::-webkit-scrollbar {
+  background-color: #ff0066;
+  border-radius: 4px;
+}
 .bg-pink.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -441,6 +485,10 @@ h6 .thin {
 .bg-prim {
   background-color: #29d0e9;
   color: white;
+}
+.bg-prim::-webkit-scrollbar {
+  background-color: #29d0e9;
+  border-radius: 4px;
 }
 .bg-prim.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -454,6 +502,10 @@ h6 .thin {
   background-color: #19e3b1;
   color: white;
 }
+.bg-tgreen::-webkit-scrollbar {
+  background-color: #19e3b1;
+  border-radius: 4px;
+}
 .bg-tgreen.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -465,6 +517,10 @@ h6 .thin {
 .bg-yellow {
   background-color: #fff600;
   color: #1c1c1c;
+}
+.bg-yellow::-webkit-scrollbar {
+  background-color: #fff600;
+  border-radius: 4px;
 }
 .bg-yellow.hover:hover {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
