@@ -107,7 +107,7 @@ $(document).ready(function () {
         $modal.css('top', triggerPosition.top);
 
         $modal.hasClass('adx-blur') ?
-            $('.wrapper, .wrapper-fluid').css('filter', 'blur(3px)') :
+            $('.wrapper, .wrapper-fluid').css('filter', 'blur(0.3rem)') :
             '';
 
         $modal.addClass('adx-show');
