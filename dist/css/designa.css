@@ -14,7 +14,7 @@
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: 1.3rem;
+  --designa-font-size: 1.14rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -1019,7 +1019,7 @@ h6 .thin {
 .adx-btn:active, .adx-btn.active {
   background-image: none;
   outline: 0;
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #29d0e9;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.1rem #29d0e9;
 }
 .adx-btn:disabled {
   opacity: 0.5;
@@ -1210,7 +1210,7 @@ h6 .thin {
 .btn-default.outline {
   color: white;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(255, 255, 255, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(255, 255, 255, 0.1) inset, 0px 0px 0px 0.08rem rgba(255, 255, 255, 0.8);
 }
 .btn-default.outline:hover {
   box-shadow: none;
@@ -1246,7 +1246,7 @@ h6 .thin {
 .btn-grey.outline {
   color: #f2f2f2;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(242, 242, 242, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(242, 242, 242, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(242, 242, 242, 0.1) inset, 0px 0px 0px 0.08rem rgba(242, 242, 242, 0.8);
 }
 .btn-grey.outline:hover {
   box-shadow: none;
@@ -1282,7 +1282,7 @@ h6 .thin {
 .btn-prim.outline {
   color: #29d0e9;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(41, 208, 233, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(41, 208, 233, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(41, 208, 233, 0.1) inset, 0px 0px 0px 0.08rem rgba(41, 208, 233, 0.8);
 }
 .btn-prim.outline:hover {
   box-shadow: none;
@@ -1318,7 +1318,7 @@ h6 .thin {
 .btn-sec.outline {
   color: #ff0066;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(255, 0, 102, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(255, 0, 102, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(255, 0, 102, 0.1) inset, 0px 0px 0px 0.08rem rgba(255, 0, 102, 0.8);
 }
 .btn-sec.outline:hover {
   box-shadow: none;
@@ -1354,7 +1354,7 @@ h6 .thin {
 .btn-dark.outline {
   color: #1c1c1c;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(28, 28, 28, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(28, 28, 28, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(28, 28, 28, 0.1) inset, 0px 0px 0px 0.08rem rgba(28, 28, 28, 0.8);
 }
 .btn-dark.outline:hover {
   box-shadow: none;
@@ -1390,7 +1390,7 @@ h6 .thin {
 .btn-pink.outline {
   color: #ff0066;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(255, 0, 102, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(255, 0, 102, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(255, 0, 102, 0.1) inset, 0px 0px 0px 0.08rem rgba(255, 0, 102, 0.8);
 }
 .btn-pink.outline:hover {
   box-shadow: none;
@@ -1426,7 +1426,7 @@ h6 .thin {
 .btn-yellow.outline {
   color: #fff600;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(255, 246, 0, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(255, 246, 0, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(255, 246, 0, 0.1) inset, 0px 0px 0px 0.08rem rgba(255, 246, 0, 0.8);
 }
 .btn-yellow.outline:hover {
   box-shadow: none;
@@ -1462,7 +1462,7 @@ h6 .thin {
 .btn-tgreen.outline {
   color: #19e3b1;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(25, 227, 177, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(25, 227, 177, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(25, 227, 177, 0.1) inset, 0px 0px 0px 0.08rem rgba(25, 227, 177, 0.8);
 }
 .btn-tgreen.outline:hover {
   box-shadow: none;
@@ -1498,7 +1498,7 @@ h6 .thin {
 .btn-red.outline {
   color: #f44336;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(244, 67, 54, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(244, 67, 54, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(244, 67, 54, 0.1) inset, 0px 0px 0px 0.08rem rgba(244, 67, 54, 0.8);
 }
 .btn-red.outline:hover {
   box-shadow: none;
@@ -1534,7 +1534,7 @@ h6 .thin {
 .btn-green.outline {
   color: #5fcf80;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(95, 207, 128, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(95, 207, 128, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(95, 207, 128, 0.1) inset, 0px 0px 0px 0.08rem rgba(95, 207, 128, 0.8);
 }
 .btn-green.outline:hover {
   box-shadow: none;
@@ -1570,7 +1570,7 @@ h6 .thin {
 .btn-blue.outline {
   color: #2196f3;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(33, 150, 243, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(33, 150, 243, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(33, 150, 243, 0.1) inset, 0px 0px 0px 0.08rem rgba(33, 150, 243, 0.8);
 }
 .btn-blue.outline:hover {
   box-shadow: none;
@@ -1606,7 +1606,7 @@ h6 .thin {
 .btn-purple.outline {
   color: #871e6a;
   background: transparent;
-  box-shadow: 0px 0px 0.3rem 0px rgba(135, 30, 106, 0.1) inset, 0px 0px 0px 1 0.5rem rgba(135, 30, 106, 0.8);
+  box-shadow: 0px 0px 0.3rem 0px rgba(135, 30, 106, 0.1) inset, 0px 0px 0px 0.08rem rgba(135, 30, 106, 0.8);
 }
 .btn-purple.outline:hover {
   box-shadow: none;
@@ -1615,59 +1615,59 @@ h6 .thin {
 }
 
 .shine-red:hover {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #f44336, 0px 0px 0.3rem 1px #f33123;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #f44336, 0px 0px 0.3rem 0.01rem #f33123;
 }
 .shine-red:focus, .shine-red:active {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #f44336;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #f44336;
 }
 
 .shine-green:hover {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #5fcf80, 0px 0px 0.3rem 1px #4fca74;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #5fcf80, 0px 0px 0.3rem 0.01rem #4fca74;
 }
 .shine-green:focus, .shine-green:active {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #5fcf80;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #5fcf80;
 }
 
 .shine-blue:hover {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #2196f3, 0px 0px 0.3rem 1px #0e8df2;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #2196f3, 0px 0px 0.3rem 0.01rem #0e8df2;
 }
 .shine-blue:focus, .shine-blue:active {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #2196f3;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #2196f3;
 }
 
 .shine-yellow:hover {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #fff600, 0px 0px 0.3rem 1px #ebe200;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #fff600, 0px 0px 0.3rem 0.01rem #ebe200;
 }
 .shine-yellow:focus, .shine-yellow:active {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #fff600;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #fff600;
 }
 
 .shine-tgreen:hover {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #19e3b1, 0px 0px 0.3rem 1px #17d1a3;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #19e3b1, 0px 0px 0.3rem 0.01rem #17d1a3;
 }
 .shine-tgreen:focus, .shine-tgreen:active {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #19e3b1;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #19e3b1;
 }
 
 .shine-pink:hover {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #ff0066, 0px 0px 0.3rem 1px #eb005e;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #ff0066, 0px 0px 0.3rem 0.01rem #eb005e;
 }
 .shine-pink:focus, .shine-pink:active {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #ff0066;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #ff0066;
 }
 
 .shine-dark:hover {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #1c1c1c, 0px 0px 0.3rem 1px #121212;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #1c1c1c, 0px 0px 0.3rem 0.01rem #121212;
 }
 .shine-dark:focus, .shine-dark:active {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #1c1c1c;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #1c1c1c;
 }
 
 .shine-purple:hover {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #871e6a, 0px 0px 0.3rem 1px #761a5d;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #871e6a, 0px 0px 0.3rem 0.01rem #761a5d;
 }
 .shine-purple:focus, .shine-purple:active {
-  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 1px #871e6a;
+  box-shadow: 0px 0px 0.3rem 0px rgba(0, 0, 0, 0.1) inset, 0px 0px 0px 0.01rem #871e6a;
 }
 
 /*
@@ -1680,7 +1680,7 @@ h6 .thin {
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: 1.3rem;
+  --designa-font-size: 1.14rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -2067,7 +2067,7 @@ h6 .thin {
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: 1.3rem;
+  --designa-font-size: 1.14rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -2214,7 +2214,7 @@ h6 .thin {
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: 1.3rem;
+  --designa-font-size: 1.14rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -3095,7 +3095,7 @@ input[type=checkbox]:disabled ~ .adx-toggle:after, .adx-input select[type=checkb
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: 1.3rem;
+  --designa-font-size: 1.14rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -3583,7 +3583,7 @@ input[type=checkbox]:disabled ~ .adx-toggle:after, .adx-input select[type=checkb
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: 1.3rem;
+  --designa-font-size: 1.14rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -3721,7 +3721,6 @@ input[type=checkbox]:disabled ~ .adx-toggle:after, .adx-input select[type=checkb
 @media screen and (max-width: 767px) {
   .adx-table table {
     width: 100%;
-    margin-bottom: 10.5rem;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
@@ -3739,7 +3738,7 @@ input[type=checkbox]:disabled ~ .adx-toggle:after, .adx-input select[type=checkb
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: 1.3rem;
+  --designa-font-size: 1.14rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -3865,11 +3864,6 @@ input[type=checkbox]:disabled ~ .adx-toggle:after, .adx-input select[type=checkb
   to {
     top: 50%;
     opacity: 1;
-  }
-}
-@media screen and (max-width: 32em) {
-  body {
-    font-size: 75%;
   }
 }
 .adx-accordian {
@@ -4228,7 +4222,7 @@ input[type=checkbox]:disabled ~ .adx-toggle:after, .adx-input select[type=checkb
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: 1.3rem;
+  --designa-font-size: 1.14rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
